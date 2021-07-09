@@ -21,6 +21,7 @@ iframe {
   overflow: hidden;
 }
 
+/* 取消a标签的动画 */
 a {
   transition: none !important;
 }
@@ -30,6 +31,7 @@ a {
   line-height: 60px;
   text-align: center;
   font-size: 12px;
+  /* 不让用户选中 */
   user-select: none;
 }
 

@@ -47,7 +47,7 @@ function getUserInfo() {
 // 渲染用户头像
 function renderAvater(user) {
     // 获取用户的名称
-    var name = user.username || user.nickname
+    var name = user.nickname || user.username
     // 将用户名渲染到网页
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
     // 渲染用户头像
@@ -57,7 +57,7 @@ function renderAvater(user) {
         $('.text-avatar').hide()
     } else {
         $('.layui-nav-img').hide();
-        var first = name[0].toUpperClass;
+        var first = name[0].toUpperCase();
         $('.text-avatar').html(first).show()
     }
 }

@@ -1,0 +1,17 @@
+git checkout -b article  (创建article分支)
+
+git branch   (查看文件分支)
+
+git add .
+
+git commit -m "注释"
+
+// 以上完成本地的提交
+
+git push -u origin user  （将user文件上传网络）
+
+git checkout main  (切换到main分支)
+
+git merge user   (合并user文件)
+
+git push (将合并后的文件推送到网络)

@@ -53,7 +53,7 @@ function renderAvater(user) {
     // 渲染用户头像
     // 如果存在头像，则显示，并把网页的另一个隐藏
     if (user.user_pic !== null) {
-        $('.layui-nav-img').attr(src, user.user_pic).show();
+        $('.layui-nav-img').attr('src', user.user_pic).show();
         $('.text-avatar').hide()
     } else {
         $('.layui-nav-img').hide();

@@ -65,7 +65,7 @@ $(function() {
             var htmlStr = template('tpl-cate', res)
             $('[name=cate_id]').html(htmlStr)
             // 通过 layui 重新渲染表单区域的UI结构
-            console.log(htmlStr)
+            // console.log(htmlStr)
             // 通过 layui 重新渲染表单区域的UI结构
             form.render()
           }
